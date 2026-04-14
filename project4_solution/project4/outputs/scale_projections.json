@@ -1,0 +1,46 @@
+[
+  {
+    "index_type": "ivfpq",
+    "n_docs_projected": 10000000,
+    "projected_memory_gb": 0.89,
+    "projected_latency_ms": 12.0,
+    "fits_in_16gb_ram": true,
+    "meets_50ms_sla": true,
+    "compression_ratio": 16.0,
+    "recommended": true,
+    "recommendation_reason": "Only index satisfying BOTH 16 GB RAM and 50 ms SLA. 16x compression via Product Quantization, ~85-90% recall \u2014 acceptable for clinical retrieval when combined with re-ranking."
+  },
+  {
+    "index_type": "flat",
+    "n_docs_projected": 10000000,
+    "projected_memory_gb": 14.31,
+    "projected_latency_ms": 250.0,
+    "fits_in_16gb_ram": true,
+    "meets_50ms_sla": false,
+    "compression_ratio": 1.0,
+    "recommended": false,
+    "recommendation_reason": "Exact but too slow and too much RAM for 10M docs."
+  },
+  {
+    "index_type": "ivfflat",
+    "n_docs_projected": 10000000,
+    "projected_memory_gb": 14.31,
+    "projected_latency_ms": 30.0,
+    "fits_in_16gb_ram": true,
+    "meets_50ms_sla": true,
+    "compression_ratio": 1.0,
+    "recommended": true,
+    "recommendation_reason": "Meets latency SLA but exceeds 16 GB RAM at 10M docs."
+  },
+  {
+    "index_type": "hnsw",
+    "n_docs_projected": 10000000,
+    "projected_memory_gb": 16.69,
+    "projected_latency_ms": 4.0,
+    "fits_in_16gb_ram": false,
+    "meets_50ms_sla": true,
+    "compression_ratio": 0.9,
+    "recommended": false,
+    "recommendation_reason": "Fastest query but highest memory \u2014 exceeds 16 GB RAM."
+  }
+]

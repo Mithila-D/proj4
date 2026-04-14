@@ -1,0 +1,74 @@
+query_id,query_text,lay_terms,relevant_topics
+Q-000,heart attack treatment aspirin antiplatelet,heart attack; blood thinner,acute_coronary_syndrome
+Q-001,blocked artery stent procedure,blocked artery; stent,acute_coronary_syndrome
+Q-002,chest pain ECG diagnosis hospital,chest pain,acute_coronary_syndrome
+Q-003,heart attack recovery rehabilitation exercise,heart attack; recovery,acute_coronary_syndrome
+Q-004,cholesterol heart disease prevention,cholesterol,acute_coronary_syndrome; hypertension
+Q-005,clot busting drug heart attack emergency,clot busting; clot dissolving,acute_coronary_syndrome
+Q-006,silent heart attack no symptoms diagnosis,silent heart attack,acute_coronary_syndrome
+Q-007,widowmaker heart attack left artery,widowmaker,acute_coronary_syndrome
+Q-008,mini heart attack enzyme blood test,mini heart attack,acute_coronary_syndrome
+Q-009,heart attack survival rate hospital outcomes,heart attack,acute_coronary_syndrome
+Q-010,blood thinner dose adjustment kidney,blood thinner,anticoagulation_therapy; renal_disease
+Q-011,blood clot leg swelling DVT,blood clot; leg clot,anticoagulation_therapy
+Q-012,warfarin INR monitoring diet food,rat poison pill; warfarin,anticoagulation_therapy
+Q-013,new blood thinner pill no monitoring needed,new blood thinner,anticoagulation_therapy
+Q-014,blood clot lung shortness breath treatment,blood clot lung,anticoagulation_therapy
+Q-015,blood thinners surgery stop before operation,blood thinners,anticoagulation_therapy
+Q-016,clot lung hospital anticoagulant how long,clot lung,anticoagulation_therapy
+Q-017,bleeding risk assessment anticoagulation score,bleeding risk,anticoagulation_therapy
+Q-018,water pill swollen ankles fluid retention,water pill; fluid pill,heart_failure
+Q-019,weak heart pump ejection fraction low,weak heart; weak pump,heart_failure
+Q-020,breathless lying flat night heart swelling,breathless flat; night breathing trouble,heart_failure
+Q-021,heart failure new pill SGLT2 benefits,heart failure pill,heart_failure; diabetes_mellitus
+Q-022,ICD defibrillator implant heart failure sudden death,shock device; defibrillator vest,heart_failure
+Q-023,heart failure readmission prevention self-monitoring weight,heart failure readmission,heart_failure
+Q-024,shortness breath heart failure lung fluid diuretic,drowning in fluid,heart_failure
+Q-025,high blood sugar type 2 diabetes first treatment,high blood sugar; sugar diabetes,diabetes_mellitus
+Q-026,diabetes injection GLP weight loss pen,diabetes injection; slimming jab,diabetes_mellitus
+Q-027,low blood sugar hypoglycaemia dangerous driving,low blood sugar; hypo,diabetes_mellitus
+Q-028,diabetes eye check retina damage prevention,diabetes eye; sugar eye,diabetes_mellitus
+Q-029,diabetic foot ulcer infection amputation risk,diabetic foot; sugar foot,diabetes_mellitus
+Q-030,sugar tablet metformin side effects stomach,sugar tablet,diabetes_mellitus
+Q-031,diabetes kidney damage protein urine creatinine,sugar kidney,diabetes_mellitus; renal_disease
+Q-032,HbA1c target elderly frail patient diabetic,sugar test three months,diabetes_mellitus
+Q-033,diabetes technology CGM pump closed loop,sugar sensor; insulin pump,diabetes_mellitus
+Q-034,high blood pressure no symptoms silent killer,high blood pressure; silent killer,hypertension
+Q-035,blood pressure tablet side effects tiredness,blood pressure tablet,hypertension
+Q-036,white coat blood pressure home monitoring,white coat; doctor anxiety BP,hypertension
+Q-037,resistant high blood pressure multiple tablets,hard to control BP,hypertension
+Q-038,blood pressure stroke risk prevention treatment,blood pressure stroke,hypertension; stroke
+Q-039,high blood pressure pregnancy preeclampsia risk,blood pressure pregnancy,hypertension
+Q-040,salt diet blood pressure reduce sodium,salty food BP,hypertension
+Q-041,brain attack clot busting treatment time window,brain attack; brain clot,stroke
+Q-042,mini stroke TIA warning sign prevention,mini stroke; little stroke,stroke
+Q-043,stroke recovery physiotherapy speech rehabilitation,stroke recovery,stroke
+Q-044,brain bleed anticoagulation stop restart when,brain bleed,stroke; anticoagulation_therapy
+Q-045,stroke prevention AF heart rhythm blood thinner,stroke prevention AF,stroke; anticoagulation_therapy
+Q-046,FAST test stroke symptoms recognition face arm,FAST stroke symptoms; face drooping,stroke
+Q-047,stroke clot removal surgery catheter brain,stroke clot removal,stroke
+Q-048,blood poisoning signs symptoms diagnosis hospital,blood poisoning; blood infection,sepsis
+Q-049,sepsis antibiotic one hour protocol bundle,sepsis antibiotics fast,sepsis
+Q-050,ICU infection drip antibiotics IV treatment,drip infection; IV antibiotics,sepsis
+Q-051,sepsis shock low blood pressure ICU treatment,septic shock; blood pressure crash,sepsis
+Q-052,infection blood test CRP white cells high,infection marker; white cells,sepsis
+Q-053,lactic acid high blood test infection organ,lactic acid; lactate,sepsis
+Q-054,COPD inhaler puffer choice which one,puffer; reliever inhaler,respiratory_disease
+Q-055,asthma attack emergency hospital breathing,asthma attack,respiratory_disease
+Q-056,breathless COPD oxygen home long-term,home oxygen; breathless,respiratory_disease
+Q-057,lung scarring fibrosis treatment prognosis,lung scarring; stiff lungs,respiratory_disease
+Q-058,steroid inhaler side effects osteoporosis,steroid inhaler; puffer,respiratory_disease
+Q-059,CPAP mask sleep apnea breathing night,CPAP machine; sleep apnea mask,respiratory_disease
+Q-060,kidney failure dialysis when to start,kidney failure; kidney washout,renal_disease
+Q-061,kidney disease creatinine rising eGFR low,kidney number; kidney score,renal_disease
+Q-062,contrast dye CT scan kidney damage prevention,contrast dye kidney,renal_disease
+Q-063,kidney transplant rejection immunosuppression,kidney transplant,renal_disease
+Q-064,protein urine kidney nephrotic syndrome foamy,protein urine; foamy urine,renal_disease
+Q-065,kidney anaemia erythropoietin injection iron,kidney anaemia; tired kidney,renal_disease
+Q-066,blood thinner antibiotic interaction dangerous,blood thinner antibiotic,drug_interactions; anticoagulation_therapy
+Q-067,grapefruit juice medication dangerous interaction,grapefruit medication,drug_interactions
+Q-068,statins muscle pain aching side effect,cholesterol tablet muscle pain,drug_interactions
+Q-069,antidepressant other medication serotonin overload,antidepressant interaction; serotonin overload,drug_interactions
+Q-070,over counter painkiller blood thinner interaction,painkiller blood thinner,drug_interactions; anticoagulation_therapy
+Q-071,herbal supplement St Johns Wort drug interaction,herbal supplement interaction,drug_interactions
+Q-072,heart tablet grapefruit avoid QT interval,heart tablet grapefruit,drug_interactions

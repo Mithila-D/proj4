@@ -1,0 +1,5 @@
+condition,mrr_at_k,recall_at_k
+A. BM25 (no expansion),0.7352,0.7534
+B. BM25 + expansion,0.9064,0.9178
+C. SBERT dense,0.9183,0.9452
+D. MultiStage (full pipeline),0.9726,0.9726
